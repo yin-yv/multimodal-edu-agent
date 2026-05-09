@@ -1,0 +1,211 @@
+Folder PATH listing for volume ÏµÍ³
+Volume serial number is 7AB7-96AD
+C:.
+©¦   .gitignore
+©¦   docker-compose.yml
+©¦   LICENSE
+©¦   PROJECT_STRUCTURE.md
+©¦   README.md
+©¦   setup_structure.bat
+©¦   structure.txt
+©¦   
+©À©¤©¤©¤backend
+©¦   ©¦   CMakeLists.txt
+©¦   ©¦   README.md
+©¦   ©¦   requirements.txt
+©¦   ©¦   
+©¦   ©À©¤©¤©¤agents
+©¦   ©¦   ©¦   __init__.py
+©¦   ©¦   ©¦   
+©¦   ©¦   ©À©¤©¤©¤adapters
+©¦   ©¦   ©¦       platform_a_adapter.py
+©¦   ©¦   ©¦       platform_b_adapter.py
+©¦   ©¦   ©¦       platform_c_adapter.py
+©¦   ©¦   ©¦       universal_adapter.py
+©¦   ©¦   ©¦       __init__.py
+©¦   ©¦   ©¦       
+©¦   ©¦   ©À©¤©¤©¤base
+©¦   ©¦   ©¦       agent_base.py
+©¦   ©¦   ©¦       message.py
+©¦   ©¦   ©¦       __init__.py
+©¦   ©¦   ©¦       
+©¦   ©¦   ©À©¤©¤©¤orchestrator
+©¦   ©¦   ©¦       master_agent.py
+©¦   ©¦   ©¦       resource_manager.py
+©¦   ©¦   ©¦       task_scheduler.py
+©¦   ©¦   ©¦       __init__.py
+©¦   ©¦   ©¦       
+©¦   ©¦   ©À©¤©¤©¤perception
+©¦   ©¦   ©¦       cv_processor.py
+©¦   ©¦   ©¦       dom_analyzer.py
+©¦   ©¦   ©¦       perception_agent.py
+©¦   ©¦   ©¦       ui_detector.py
+©¦   ©¦   ©¦       __init__.py
+©¦   ©¦   ©¦       
+©¦   ©¦   ©¸©¤©¤©¤reasoning
+©¦   ©¦           context_reconstructor.py
+©¦   ©¦           cot_engine.py
+©¦   ©¦           graph_builder.py
+©¦   ©¦           knowledge_extractor.py
+©¦   ©¦           reasoning_agent.py
+©¦   ©¦           __init__.py
+©¦   ©¦           
+©¦   ©À©¤©¤©¤api
+©¦   ©¦   ©¦   __init__.py
+©¦   ©¦   ©¦   
+©¦   ©¦   ©À©¤©¤©¤rest
+©¦   ©¦   ©¦   ©À©¤©¤©¤routes
+©¦   ©¦   ©¦   ©¸©¤©¤©¤schemas
+©¦   ©¦   ©¸©¤©¤©¤websocket
+©¦   ©À©¤©¤©¤bindings
+©¦   ©¦   ©¸©¤©¤©¤pybind
+©¦   ©À©¤©¤©¤configs
+©¦   ©¦   ©À©¤©¤©¤deployment
+©¦   ©¦   ©À©¤©¤©¤models
+©¦   ©¦   ©¸©¤©¤©¤platforms
+©¦   ©À©¤©¤©¤core
+©¦   ©¦   ©À©¤©¤©¤include
+©¦   ©¦   ©¦   ©À©¤©¤©¤perception
+©¦   ©¦   ©¦   ©¦       dom_parser.h
+©¦   ©¦   ©¦   ©¦       ui_adapter.h
+©¦   ©¦   ©¦   ©¦       vision_processor.h
+©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©À©¤©¤©¤scheduler
+©¦   ©¦   ©¦   ©¦       task_queue.h
+©¦   ©¦   ©¦   ©¦       token_bucket.h
+©¦   ©¦   ©¦   ©¦       worker_pool.h
+©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©À©¤©¤©¤stream
+©¦   ©¦   ©¦   ©¦       audio_decoder.h
+©¦   ©¦   ©¦   ©¦       frame_extractor.h
+©¦   ©¦   ©¦   ©¦       video_decoder.h
+©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©À©¤©¤©¤sync
+©¦   ©¦   ©¦   ©¦       multimodal_fusion.h
+©¦   ©¦   ©¦   ©¦       timestamp_aligner.h
+©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¸©¤©¤©¤utils
+©¦   ©¦   ©¦           config_parser.h
+©¦   ©¦   ©¦           logger.h
+©¦   ©¦   ©¦           memory_pool.h
+©¦   ©¦   ©¦           
+©¦   ©¦   ©¸©¤©¤©¤src
+©¦   ©¦       ©À©¤©¤©¤perception
+©¦   ©¦       ©¦       dom_parser.cpp
+©¦   ©¦       ©¦       ui_adapter.cpp
+©¦   ©¦       ©¦       vision_processor.cpp
+©¦   ©¦       ©¦       
+©¦   ©¦       ©À©¤©¤©¤scheduler
+©¦   ©¦       ©¦       task_queue.cpp
+©¦   ©¦       ©¦       token_bucket.cpp
+©¦   ©¦       ©¦       worker_pool.cpp
+©¦   ©¦       ©¦       
+©¦   ©¦       ©À©¤©¤©¤stream
+©¦   ©¦       ©¦       audio_decoder.cpp
+©¦   ©¦       ©¦       frame_extractor.cpp
+©¦   ©¦       ©¦       video_decoder.cpp
+©¦   ©¦       ©¦       
+©¦   ©¦       ©À©¤©¤©¤sync
+©¦   ©¦       ©¦       multimodal_fusion.cpp
+©¦   ©¦       ©¦       timestamp_aligner.cpp
+©¦   ©¦       ©¦       
+©¦   ©¦       ©¸©¤©¤©¤utils
+©¦   ©¦               config_parser.cpp
+©¦   ©¦               logger.cpp
+©¦   ©¦               memory_pool.cpp
+©¦   ©¦               
+©¦   ©À©¤©¤©¤models
+©¦   ©¦       __init__.py
+©¦   ©¦       
+©¦   ©À©¤©¤©¤pipelines
+©¦   ©¦       __init__.py
+©¦   ©¦       
+©¦   ©À©¤©¤©¤services
+©¦   ©¦   ©¦   __init__.py
+©¦   ©¦   ©¦   
+©¦   ©¦   ©À©¤©¤©¤asr
+©¦   ©¦   ©À©¤©¤©¤llm
+©¦   ©¦   ©À©¤©¤©¤ocr
+©¦   ©¦   ©¸©¤©¤©¤rag
+©¦   ©À©¤©¤©¤tests
+©¦   ©¦   ©À©¤©¤©¤integration
+©¦   ©¦   ©¸©¤©¤©¤unit
+©¦   ©¦       ©À©¤©¤©¤agents
+©¦   ©¦       ©¸©¤©¤©¤core
+©¦   ©¸©¤©¤©¤utils
+©¦           __init__.py
+©¦           
+©À©¤©¤©¤deployment
+©¦   ©¸©¤©¤©¤kubernetes
+©À©¤©¤©¤docs
+©¦   ©À©¤©¤©¤api
+©¦   ©¦       rest_api.md
+©¦   ©¦       
+©¦   ©À©¤©¤©¤deployment
+©¦   ©¦       backend_deploy.md
+©¦   ©¦       
+©¦   ©¸©¤©¤©¤mobile
+©¦           architecture.md
+©¦           
+©À©¤©¤©¤gateway
+©¦   ©¸©¤©¤©¤nginx
+©¦           nginx.conf
+©¦           
+©À©¤©¤©¤mobile
+©¦   ©À©¤©¤©¤flutter_app
+©¦   ©¦   ©¦   pubspec.yaml
+©¦   ©¦   ©¦   
+©¦   ©¦   ©À©¤©¤©¤assets
+©¦   ©¦   ©¦   ©¸©¤©¤©¤images
+©¦   ©¦   ©À©¤©¤©¤lib
+©¦   ©¦   ©¦   ©¦   main.dart
+©¦   ©¦   ©¦   ©¦   
+©¦   ©¦   ©¦   ©À©¤©¤©¤core
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤config
+©¦   ©¦   ©¦   ©¦   ©¦       app_config.dart
+©¦   ©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤network
+©¦   ©¦   ©¦   ©¦   ©¦       api_client.dart
+©¦   ©¦   ©¦   ©¦   ©¦       websocket_client.dart
+©¦   ©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤storage
+©¦   ©¦   ©¦   ©¦   ©¦       local_db.dart
+©¦   ©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¦   ©¸©¤©¤©¤utils
+©¦   ©¦   ©¦   ©À©¤©¤©¤data
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤models
+©¦   ©¦   ©¦   ©¦   ©¦       course.dart
+©¦   ©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤providers
+©¦   ©¦   ©¦   ©¦   ©¸©¤©¤©¤repositories
+©¦   ©¦   ©¦   ©¦           course_repository.dart
+©¦   ©¦   ©¦   ©¦           
+©¦   ©¦   ©¦   ©À©¤©¤©¤domain
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤services
+©¦   ©¦   ©¦   ©¦   ©¸©¤©¤©¤usecases
+©¦   ©¦   ©¦   ©À©¤©¤©¤presentation
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤controllers
+©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤screens
+©¦   ©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤course
+©¦   ©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤extraction
+©¦   ©¦   ©¦   ©¦   ©¦   ©À©¤©¤©¤home
+©¦   ©¦   ©¦   ©¦   ©¦   ©¦       home_screen.dart
+©¦   ©¦   ©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¦   ©¦   ©¸©¤©¤©¤knowledge
+©¦   ©¦   ©¦   ©¦   ©¸©¤©¤©¤widgets
+©¦   ©¦   ©¦   ©¦       ©À©¤©¤©¤cards
+©¦   ©¦   ©¦   ©¦       ©¸©¤©¤©¤common
+©¦   ©¦   ©¦   ©À©¤©¤©¤routes
+©¦   ©¦   ©¦   ©¦       app_routes.dart
+©¦   ©¦   ©¦   ©¦       
+©¦   ©¦   ©¦   ©¸©¤©¤©¤theme
+©¦   ©¦   ©¦           app_theme.dart
+©¦   ©¦   ©¦           
+©¦   ©¦   ©¸©¤©¤©¤test
+©¦   ©¸©¤©¤©¤native_modules
+©¦       ©À©¤©¤©¤android
+©¦       ©¸©¤©¤©¤ios
+©¸©¤©¤©¤scripts
+        build_mobile.sh
+        release_android.sh
+        
